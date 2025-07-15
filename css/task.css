@@ -255,7 +255,7 @@ footer{
 }
 .footer__subscription h2{
     text-align: left;
-    padding-bottom:  30px;
+    padding: 0px 0px 30px;
 }
 input{
     border:none; 
