@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,15 +12,23 @@
     <header>
         <section class="navigation">
             <div class="header__navigation">
-                <a href="#" class="header__logo"><img src="img/icon/header/logo.png" alt="" width="100px"></a>
-                <button class="burger-menu"><img src="img/icon/header/Hamburger Menu.svg" alt=""></button>
-                <nav class="header__menu">
-                    <a href="#slider" >Наша команда</a>                        
-                    <a href="#portfolio" >Портфолио</a>
-                    <a href="#main__prise" >Услуги и цены</a>
+                <a href="#" class="header__logo"><img src="img/icon/header/logo.png" alt="" ></a>
+                <button class="burger-menu" id="burger-menu" ><img src="img/icon/header/Hamburger Menu.svg" alt=""></button>
+                   <nav class="header__burger-menu" id="header__burger-menu" style=" left: -300px;">
+                    <a href="#slider" id="bm-slider" >Наша команда</a>                        
+                    <a href="#portfolio" id="bm-portfolio">Портфолио</a>
+                    <a href="#main__prise" id="bm-main__prise">Услуги и цены</a>
+                    <a href=""><button class="header__btn">Связаться</button><img src="" alt=""></a>
+                </nav>
+                <nav class="header__menu" id="header__menu">
+                    <a href="#slider">Наша команда</a>                        
+                    <a href="#portfolio">Портфолио</a>
+                    <a href="#main__prise">Услуги и цены</a>
                 </nav>
                 <a href=""><button class="header__btn">Связаться</button><img src="" alt=""></a>
             </div>
+             
+
         </section>
             <div class="header__text">
                 <p>Превращая идеи в реальность, <br> создаем шедевры вокруг вас</p>
@@ -94,7 +102,7 @@
                     <figcaption> Детская комната </figcaption>                       
                     <a href="html/portfolio3.html"><img src="img/img/portfolio/3/9w1h9qTQfpms2-lCamNVox-1wrDbkrBhhmjF8aw7SmMmuWiGSmeHtS5Oe95iXLBSZZQwFfFqPtim1lA6TmYX4DdY.jpg" alt=""></a>
                 </figure>
-        </section>
+            </section>
         <section class="main__prise" id="main__prise">
             <h2>Услуги и цены</h2>
                 <hr>
